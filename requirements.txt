@@ -1,9 +1,5 @@
-python == 3.12.8
 streamlit
 crewai
 crewai_tools
 python-pptx
-pptx.util
-pptx.enum.text
-pptx.dml.color
-dotenv
+python-dotenv
