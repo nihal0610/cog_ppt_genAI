@@ -21,17 +21,17 @@ def create_presentation(slides_text, output_file="output_presentation.pptx"):
             slide = prs.slides.add_slide(slide_layout)
             title = slide.shapes.title
             content = slide.placeholders[1]
- 
+
             title.text = f"Slide {i+1}"
             content.text = point
- 
+
             # Style Text
             for paragraph in content.text_frame.paragraphs:
                 paragraph.alignment = PP_ALIGN.LEFT  # Align text
                 paragraph.font.bold = True  # Make text bold
                 paragraph.font.size = Pt(24)  # Set font size
                 paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black color
- 
+
     prs.save(output_file)
     return output_file
 
