@@ -6,3 +6,4 @@ python-dotenv
 chromadb
 sqlite
 python >=3.12
+snowflake-connector-python
