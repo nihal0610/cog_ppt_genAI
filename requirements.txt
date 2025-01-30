@@ -1,4 +1,4 @@
-Python 3.12
+Python3.12
 streamlit
 crewai
 crewai_tools
