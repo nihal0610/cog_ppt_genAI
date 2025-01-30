@@ -5,3 +5,4 @@ python-pptx
 python-dotenv
 chromadb
 sqlite
+python >=3.10
