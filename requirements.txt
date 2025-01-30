@@ -4,6 +4,6 @@ crewai_tools
 python-pptx
 python-dotenv
 chromadb
-sqlite
+sqlite3
 python >=3.12
 snowflake-connector-python
