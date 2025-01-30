@@ -2,7 +2,7 @@ Python3.12.8
 streamlit
 crewai
 crewai_tools
-pptx
+python-pptx
 pptx.util
 pptx.enum.text
 pptx.dml.color
