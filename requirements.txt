@@ -3,4 +3,4 @@ crewai
 crewai_tools
 python-pptx
 python-dotenv
-cromadb
+chromadb
