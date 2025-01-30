@@ -4,4 +4,4 @@ crewai_tools
 python-pptx
 python-dotenv
 chromadb
-sqlite3
+sqlite
