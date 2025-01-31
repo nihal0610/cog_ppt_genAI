@@ -2,8 +2,4 @@ streamlit
 crewai
 crewai_tools
 python-pptx
-python-dotenv
-chromadb
-sqlite3
-python >=3.12
-snowflake-connector-python
+python >= 3.12
