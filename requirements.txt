@@ -2,5 +2,5 @@ streamlit
 crewai
 crewai_tools
 python-pptx
-sqlite3 = 3.48.0
-chromadb
+
+
