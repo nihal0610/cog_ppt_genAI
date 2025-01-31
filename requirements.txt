@@ -2,4 +2,3 @@ streamlit
 crewai
 crewai_tools
 python-pptx
-python
