@@ -46,7 +46,7 @@ def main():
             
             # Initialize the regular model
             llm = LLM(
-                model="gpt-3.5-turbo-16k", temperature=0.3, api_key=openai_api_key
+                model="gpt-4o", temperature=0.3, api_key=openai_api_key
             )
             search_tool = SerperDevTool(serpapi_key=serpapi_key)
 
