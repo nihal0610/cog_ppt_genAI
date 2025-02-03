@@ -23,7 +23,7 @@ def create_presentation(slides_text, output_file="output_presentation.pptx"):
             content = slide.placeholders[1]
  
             title.text = f"Slide {i+1}"
-            content.text = point
+            content.text = point.strip()
  
             # Style Text
             for paragraph in content.text_frame.paragraphs:
