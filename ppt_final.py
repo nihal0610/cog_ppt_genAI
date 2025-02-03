@@ -55,7 +55,7 @@ def main():
                 role="Expert in analysing and Searching webdata",
                 goal=f"To Search Web for industries latest relevant information on {text} and the format the data into presentation slides.",
                 backstory="You are experienced web search expert who searches web and gathers data of input given and you present it to your clients.",
-                tools=[search_tool],
+                #tools=[search_tool],
                 llm=llm,
                 verbose=True
             )
