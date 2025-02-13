@@ -6,4 +6,3 @@ google-api-python-client
 google-generativeai
 litellm
 langchain
-pysqlite3
