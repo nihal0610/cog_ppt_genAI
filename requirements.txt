@@ -1,8 +1,8 @@
-streamlit==1.15.0
-crewai==0.1.0
-crewai_tools==0.1.0
-python-pptx==0.6.21
-google-api-python-client==2.45.0
-google-generativeai==0.1.0
-litellm==0.1.0
-langchain==0.0.1
+streamlit
+crewai
+crewai_tools
+python-pptx
+google-api-python-client
+google-generativeai
+litellm
+langchain
