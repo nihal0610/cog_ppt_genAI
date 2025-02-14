@@ -24,7 +24,7 @@ def create_presentation(slides_text, output_file="output_presentation.pptx"):
             title = slide.shapes.title
             content = slide.placeholders[1]
  
-            title.text = f"Slide {i+1}"
+            #title.text = f"Slide {i+1}"
             content.text = point
  
             # Style Text
