@@ -63,7 +63,7 @@ if st.button("Generate Presentation"):
         presentation_task_obj = Task(
             description="Get the accurate data from web searches for the input topic and give its description and arrange it into such format that it can be given as a presentation.",
             agent=presentation_agent,
-            expected_output="A factually and grammatically correct power-point presentation draft text. The text should include all the possible data and provide 10 slides with 1 topic per slide and give Description and some noticeable facts in bullet points and latest news on the respective topic. Keep the bullet points short and precise."
+            expected_output="A factually and grammatically correct power-point presentation draft text. The text should include all the possible data and provide 10 slides with 1 topic per slide and give Description and some noticeable facts in bullet points and latest news on the respective topic. Keep the bullet points short and precise.At the end of each slide enter a '$' sign."
         )
 
         crew = Crew(
