@@ -15,7 +15,7 @@ from langchain.chat_models import ChatLiteLLM
 
 def create_presentation(slides_text, output_file="output_presentation.pptx"):
     prs = Presentation()
-    slides_content = slides_text.split("Slide")
+    slides_content = slides_text.split("$")
    
     for i, point in enumerate(slides_content):
         if point.strip():
